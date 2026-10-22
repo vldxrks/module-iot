@@ -1,0 +1,12 @@
+analyzer:
+  exclude:
+    - build/**
+    - web/**
+  language:
+    strict-casts: true
+    strict-inference: true
+linter:
+  rules:
+    - prefer_const_constructors
+    - use_key_in_widget_constructors
+  # print потрібен для консольних прикладів із завдань 1 і 4.

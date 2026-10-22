@@ -1,0 +1,15 @@
+name: module_control_1
+description: Модульний контроль 1. Рукасов Владислав, Ік-42.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.31.1
+flutter:
+  uses-material-design: true
